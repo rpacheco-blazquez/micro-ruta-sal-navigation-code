@@ -20,15 +20,15 @@ Desarrollar un sistema de navegación autónoma para un buque a escala de 3 metr
 
 ## 📦 Estructura del Proyecto  
 
-📂 Micro-Ruta-Sal-Navegacion
-│── 📁 docs/ # Documentación del sistema y reglamento
-│── 📁 src/ # Código fuente del software de navegación
-│── 📁 hardware/ # Diseño de la estructura y electrónica del barco
-│── 📁 tests/ # Pruebas en simulación y en campo
-│── 📁 datasets/ # Datos de navegación y entrenamiento (si aplica)
-│── 📄 README.md # Este documento
-│── 📄 LICENSE # Licencia del proyecto
-│── 📄 CONTRIBUTING.md # Guía para contribuyentes
+📂 Micro-Ruta-Sal-Navegacion  
+│── 📁 docs/ # Documentación del sistema y reglamento  
+│── 📁 src/ # Código fuente del software de navegación  
+│── 📁 hardware/ # Diseño de la estructura y electrónica del barco  
+│── 📁 tests/ # Pruebas en simulación y en campo  
+│── 📁 datasets/ # Datos de navegación y entrenamiento (si aplica)  
+│── 📄 README.md # Este documento  
+│── 📄 LICENSE # Licencia del proyecto  
+│── 📄 CONTRIBUTING.md # Guía para contribuyentes  
 
 
 ## 🛠️ Requisitos y Configuración  
