@@ -1,0 +1,16 @@
+from core.waypoint import Waypoint
+from core.graph import build_graph
+from core.routing import find_shortest_path
+from utils.plot import plot_route
+
+# Cargar coordenadas desde CSV o una lista
+waypoints = [
+    Waypoint(38.9089, 1.4321, "Ibiza"),
+    Waypoint(39.5, 2.0, "Waypoint 1"),
+    Waypoint(40.0, 2.5, "Waypoint 2"),
+    Waypoint(41.3851, 2.1734, "Barcelona"),
+]
+
+graph = build_graph(waypoints)
+path = find_shortest_path(graph, 0, len(waypoints)-1)
+plot_route(waypoints, path)
