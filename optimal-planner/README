@@ -1,0 +1,37 @@
+# Optimal Route Planner 2
+
+Este proyecto es un planificador de rutas óptimas basado en grafos, diseñado para calcular trayectorias eficientes entre puntos definidos. Puede utilizarse para navegación, logística, simulaciones o análisis de rutas.
+
+---
+
+## 🚀 Características principales
+
+- Representación de redes mediante grafos personalizados.
+- Algoritmos de búsqueda informada (como A*, heurísticas de distancia).
+- Arquitectura modular: lógica separada en módulos (`graph`, `heuristics`, `routing`).
+- Generación de visualizaciones en mapas interactivos (`ruta_map.html`).
+
+---
+
+## 🗂️ Estructura del proyecto
+optimal-planner/
+├── main.py # Punto de entrada principal
+├── config.py # Configuración del entorno y parámetros
+├── core/
+│ ├── Graph.py # Implementación del grafo y nodos
+│ ├── heuristics.py # Funciones heurísticas
+│ └── routing.py # Algoritmos de planificación de rutas
+├── ruta_map.html # Mapa interactivo generado tras la ejecución
+
+
+---
+
+## 🧪 Uso
+
+1. Asegúrate de tener Python 3.8 o superior.
+2. Instala dependencias (si las hay):
+
+```bash
+pip install folium
+
+El resultado se visualizará en el archivo ruta_map.html en la misma carpeta donde se situa el optimal-planner , que puedes abrir con tu navegador. 
